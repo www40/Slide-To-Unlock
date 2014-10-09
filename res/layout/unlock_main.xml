@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="80dp"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/unlock_left"
+        android:contentDescription="@string/unlock_locked" />
+    
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/unlock_right"
+        android:contentDescription="@string/unlock_unlocked" />
+    
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/unlock_instructions"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/img_thumb"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:src="@drawable/unlock_thumb"
+        android:contentDescription="@string/unlock_thumb" />
+
+</RelativeLayout>
