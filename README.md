@@ -16,7 +16,7 @@ Usage:
     		
 2. Implement `OnUnlockListener` into your Activity:
 
-    		// Retrieve layout elements
+    	// Retrieve layout elements
 		UnlockBar unlock = (UnlockBar) findViewById(R.id.unlock);
 		
 		// Attach listener
