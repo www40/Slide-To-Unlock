@@ -9,10 +9,10 @@ Usage:
 
 1. Add to your layout:
 
-	\<com.hamondigital.unlock.UnlockBar
-	    	android:id="@+id/unlock"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="wrap_content" />
+		\<com.hamondigital.unlock.UnlockBar
+		    	android:id="@+id/unlock"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content" />
     		
 2. Implement `OnUnlockListener` into your Activity:
 
